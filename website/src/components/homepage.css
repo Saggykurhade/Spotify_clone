@@ -1,28 +1,34 @@
 * {
+    margin: 0;
+    padding: 0;
     /* background-color: black;
     color: white; */
-}
-
-.border {
-    border: 2px solid red;
-}
-
-.flex {
-    display: flex;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.items-center {
-    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .left {
     width: 25vw;
+    padding: 20px;
+    line-height:35px;
+}
+
+.home ul li {
+    width: 14px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logo img {
+    width: 110px;
+    height: 45px;
+}
+
+.icons i {
+    margin-top: 9px;
 }
 
 .right {
     width: 75vw;
 }
+
