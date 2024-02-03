@@ -39,7 +39,31 @@
     font-size: 13px;
 }
 
-.right {
-    width: 75vw;
+.library {
+    min-height: 70vh;
+    position: relative;
 }
 
+.footer {
+    display: flex;
+    font-size: 9.5px;
+    color: grey;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    text-decoration-line: underline;
+}
+
+.right {
+    width: 75vw;
+    margin: 25px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > * {
+    padding: 20px;
+}
