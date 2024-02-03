@@ -3,7 +3,7 @@
     padding: 0;
     /* background-color: black;
     color: white; */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .left {
@@ -17,6 +17,7 @@
     list-style: none;
     display: flex;
     gap: 20px;
+    font-weight: bold;
 }
 
 .logo img {
@@ -26,6 +27,16 @@
 
 .icons i {
     margin-top: 9px;
+}
+
+.heading {
+    width: 165px;
+    list-style: none;
+    display: flex;
+    gap: 13px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
 }
 
 .right {
