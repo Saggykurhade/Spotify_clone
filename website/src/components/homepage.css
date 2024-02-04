@@ -4,6 +4,7 @@
     /* background-color: black;
     color: white; */
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 .left {
@@ -52,6 +53,7 @@
     position: absolute;
     bottom: 0;
     text-decoration-line: underline;
+    padding: 5px 0;
 }
 
 .right {
@@ -62,8 +64,74 @@
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
 }
 
 .header > * {
     padding: 20px;
+}
+
+.nav > i {
+    width: 30px;
+    height: 20px;
+    color: rgb(156, 152, 152);
+}
+
+.spotifyplaylists {
+    padding: 16px;
+}
+
+.cardcontainer {
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.play {
+    width: 28px;
+    height: 20px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    /* top: 140px; */
+    top: 140px;
+    opacity: 1;
+    right: 25px;
+    transition: all 0.5s ease-out;
+}
+
+.play i {
+    border-radius: 50%;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    color: black;
+}
+
+.card {
+    width: 160px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #181818;
+    position: relative;
+}
+
+.card:hover {
+    scale: 1.02;
+    transition: all 0.5s ease-out;
+    background-color: #252525;
+}
+
+.card > * {
+    padding-top: 10px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
 }

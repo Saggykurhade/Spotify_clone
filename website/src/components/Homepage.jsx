@@ -36,15 +36,62 @@ const Homepage = () => {
 
       </div>
 
-      <div className='right bg-grey rounded p-1'>
+      <div className='right bg-grey rounded'>
         <div className="header">
           <div className="nav">
-          <i class="fa-solid fa-chevron-left"></i>
-          <i class="fa-solid fa-chevron-right"></i>
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
           </div>
           <div className="buttons">
             <button>Signup</button>
             <button>Login</button>
+          </div>
+        </div>
+
+        <div className="spotifyplaylists">
+          <h2>Spotify Playlists</h2>
+          <div className="cardcontainer">
+            <div className="card">
+              <div className="play">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
+              <h3>Happy Hits!</h3>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div className="card">
+              <div className="play">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
+              <h3>Happy Hits!</h3>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div className="card">
+              <div className="play">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
+              <h3>Happy Hits!</h3>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div className="card">
+              <div className="play">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
+              <h3>Happy Hits!</h3>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div className="card">
+              <div className="play">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
+              <h3>Happy Hits!</h3>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+
           </div>
         </div>
       </div>
