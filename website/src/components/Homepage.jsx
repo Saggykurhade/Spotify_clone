@@ -1,6 +1,7 @@
 import React from 'react';
 import './homepage.css';
 import './utility.css';
+import './homepage.js';
 
 const Homepage = () => {
   return (
@@ -18,10 +19,10 @@ const Homepage = () => {
         <div className="library bg-grey rounded m-1 p-1">
           <div className="heading">
             <i class="fa-solid fa-play"></i>
-            <img src="library.svg" alt="" />
             <h3>
-              your library
+              Your Library
             </h3>
+            <i class="fa-solid fa-plus"></i>
           </div>
 
           <div className="footer">
@@ -43,53 +44,58 @@ const Homepage = () => {
             <i class="fa-solid fa-chevron-right"></i>
           </div>
           <div className="buttons">
-            <button>Signup</button>
-            <button>Login</button>
+            <button>Sign up</button>
+            <button>Log in</button>
           </div>
         </div>
 
         <div className="spotifyplaylists">
           <h2>Spotify Playlists</h2>
           <div className="cardcontainer">
+
             <div className="card">
               <div className="play">
                 <i class="fa-solid fa-play"></i>
               </div>
               <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
-              <h3>Happy Hits!</h3>
-              <p>Hits to boost your mood and fill you with happiness!</p>
+              <h4>Dinner with Friends</h4>
+              <p>The perfect soundtrack to those long nights over...</p>
             </div>
+
             <div className="card">
               <div className="play">
                 <i class="fa-solid fa-play"></i>
               </div>
-              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
-              <h3>Happy Hits!</h3>
-              <p>Hits to boost your mood and fill you with happiness!</p>
+              <img src="https://i.scdn.co/image/ab67706f00000002a98e80d2fc9b1cf3b80c4481" alt="" />
+              <h4>Dinner Jazz</h4>
+              <p>The gentle sound of some of the greatest voice an...</p>
             </div>
+
             <div className="card">
               <div className="play">
                 <i class="fa-solid fa-play"></i>
               </div>
-              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
-              <h3>Happy Hits!</h3>
-              <p>Hits to boost your mood and fill you with happiness!</p>
+              <img src="https://i.scdn.co/image/ab67706f000000027cd703bbfec2f1e86c879bec" alt="" />
+              <h4>Dinner Lounge</h4>
+              <p>Soft electronis music for your dinner.</p>
             </div>
+
             <div className="card">
               <div className="play">
                 <i class="fa-solid fa-play"></i>
               </div>
-              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
-              <h3>Happy Hits!</h3>
-              <p>Hits to boost your mood and fill you with happiness!</p>
+              <img src="https://i.scdn.co/image/ab67706f000000022ba865eb4204be02ce3e8e09" alt="" />
+              <h4>Feel Good Dinner</h4>
+              <p>An uplifting yet tasteful dinner playlist with a...</p>
             </div>
+
             <div className="card">
               <div className="play">
                 <i class="fa-solid fa-play"></i>
               </div>
-              <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="" />
-              <h3>Happy Hits!</h3>
-              <p>Hits to boost your mood and fill you with happiness!</p>
+              <img src="https://i.scdn.co/image/ab67706f00000002dd9acb211caf8703ea9bfc98" alt="" />
+              <h4>Bossa Nova Dinner</h4>
+              <p>Soundtrack your cozy dinner with bossa nova...</p>
             </div>
 
           </div>
