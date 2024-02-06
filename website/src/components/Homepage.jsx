@@ -25,6 +25,12 @@ const Homepage = () => {
             <i class="fa-solid fa-plus"></i>
           </div>
 
+          <div className="songlist">
+            <ul>
+              <li></li>
+            </ul>
+          </div>
+
           <div className="footer">
             <div><span>Legal</span></div>
             <div><span>Privacy Center</span></div>

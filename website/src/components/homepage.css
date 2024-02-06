@@ -221,3 +221,12 @@
     display: flex;
     gap: 25px;
 }
+
+.songlist ul {
+    padding: 0 42px;
+}
+
+.songlist ul li {
+    display: flex;
+    list-style-type: decimal;
+}
