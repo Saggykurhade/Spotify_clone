@@ -99,7 +99,23 @@ const Homepage = () => {
             </div>
 
           </div>
+
+          <div className="playbar">
+            <div className="songinfo">
+
+            </div>
+            <div className="songbuttons">
+              <i class="fa-solid fa-backward-step"></i>
+              <i class="fa-regular fa-circle-play"></i>
+              <i class="fa-solid fa-forward-step"></i>
+            </div>
+            <div className="songtime">
+
+            </div>
+          </div>
+
         </div>
+
       </div>
     </div>
   )
