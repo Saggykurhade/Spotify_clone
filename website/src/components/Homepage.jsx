@@ -27,7 +27,11 @@ const Homepage = () => {
 
           <div className="songlist">
             <ul>
-              <li></li>
+              <li><i class="fa-solid fa-music"></i></li>
+              <div className="info">
+                <p>Song name</p>
+                <p>Song artist</p>
+              </div>
             </ul>
           </div>
 
@@ -58,7 +62,6 @@ const Homepage = () => {
         <div className="spotifyplaylists">
           <h2>Spotify Playlists</h2>
           <div className="cardcontainer">
-
             <div className="card">
               <div className="play">
                 <i class="fa-solid fa-play"></i>
@@ -108,7 +111,6 @@ const Homepage = () => {
 
           <div className="playbar">
             <div className="songinfo">
-
             </div>
             <div className="songbuttons">
               <i class="fa-solid fa-backward-step"></i>
